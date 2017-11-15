@@ -11,5 +11,7 @@ src-> hospital -> Hospital_test.java 파일
 *과제2
 ->프로젝트 폴더 이름: hospital2(phpstorm으로 작업)
 
-hospital_web.html 실행
+hospital_web.html 
+
+폴더채로 압축하여 실행 (css,js, image폴더 포함)
 
