@@ -1,0 +1,85 @@
+.button_common{
+    width:50%;
+    height:80px;
+    color:white;
+    font-size: 2rem;
+    font-weight:bold ;
+
+
+
+}
+
+.button_img{
+
+    height: 50px;
+    width:50px;
+    float:right;
+    position: absolute;
+
+    margin-right: 3em;
+
+}
+.main-header {
+    width: 100%;
+    background-color: #00ccff;
+    text-align: center;
+    position: relative;
+    padding: 0.5em 0;
+    margin-bottom: 0px;
+}
+.main-header .search{
+    right: 2em;
+    position: absolute;
+    width: 5%;
+    top:1em;
+}
+
+.main-header .logo {
+    width:20%;
+}
+
+.find-hospital{
+    width: 100%;
+    text-align: center;
+    background-color: #00ccff;
+    padding: 1em;
+
+}
+
+.main-img{
+    width: 70%;
+    max-width:500px;
+    max-height: 324px;
+}
+
+
+.button1{
+    background-color: #1662bb; width:70%; max-width: 500px;
+}
+
+.menu{
+    background-color: #e6e6e6;text-align: center;
+}
+
+.button2{
+    background-color:#4fda94; width:44%; margin-top:0.5em;
+}
+
+.button3{
+    background-color:#5db1cc; width:44%;margin-left: 2%;margin-top:0.5em;
+}
+
+.button4{
+    background-color: #f3916f;width:90%;margin-top:0.5em;
+}
+
+.button5{
+    background-color: #aa90b7; width:90%;margin-top:0.5em;
+}
+
+.button-title{
+    float:left;font-size: 1em;
+}
+.button-icon{
+    float: right;margin-right: 3em;
+}

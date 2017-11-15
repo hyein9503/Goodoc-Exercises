@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<!-- 합쳐지고 최소화된 최신 CSS -->
+
+<link rel="stylesheet" href="./bootstrap-3.3.2-dist/css/bootstrap.css">
+
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title> 굿닥|병원약국 검색어플</title>
+
+    <!--사용된 css style 불러오기-->
+    <link rel="stylesheet" type="text/css" href="css/hospital_css.css">
+
+    <!--이벤트 모아보기 버튼 클릭 이벤트-자바스크립트 파일:hostpital.js불러오기-->
+    <script language="javascript" type="text/javascript" src="js/hospital.js"></script>
+
+    <!--굿닥캐스트 마우스오버 이벤트 -->
+    <script language="javascript" type="text/javascript" src="js/goodoc_cast.js"></script>
+
+    <!-- 각 버튼 페이지 링크 구현  -->
+    <script language="javascript" type="text/javascript" src="js/move_pagelink.js"></script>
+
+
+</head>
+
+<body>
+<!--로고 포함 메인헤더-->
+<div class="jumbotron container main-header">
+    <img  class="main-header logo" src="image/goodoc_logo_white.png" >
+    <img class="main-header search" src="image/search.png">
+</div>
+<!--메인사진과 메인버튼-->
+<div class="container find-hospital">
+
+
+    <img class="main-img" src="image/main_img.png"  >
+    <br>
+    <button type="button" class="container btn button_common button1"  onclick="pagelink1()" )><div style="" ><span style="text-align:center;font-size: 1em">내 주변 병원찾기</span><span style="margin-left: 1em"><img  class="button_img" style="height: 30px;width: 30px" src="image/search-plus.png"></span></div></button>
+
+</div>
+
+<!--주 메뉴 버튼 -->
+<div  class="menu">
+
+    <button type="button" class="btn button_common button2" onclick="pagelink2()" )><div ><span class="button-title">내 주변<br>약국찾기</span><span class="button-icon"><img class="button_img" src="image/pill.png" ></span></div></button>
+    <button type="button" class="btn button_common button3" onclick="pagelink3()" )><div ><span class="button-title">상황별<br>병원찾기</span><span  class="button-icon" ><img class="button_img" src="image/search2.png"></span></div></button>
+
+    <button type="button" class="container btn button_common button4" onclick="hospital_event()") ><div style="" ><span class="button-title">병원 이벤트<br>모아보기 </span><span class="button-icon" ><img class="button_img" src="image/gift.png" ></span></div></button>
+    <button type="button" class="container btn button_common button5" onmouseover="mouse_location(event)")><div style="" ><span class="button-title">굿닥<br>캐스트</span><span class="button-icon"><img class="button_img" src="image/bookmark.png"></span></div></button>
+
+</div>
+
+
+
+</body>
+
+</html>
+
